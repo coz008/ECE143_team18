@@ -7,7 +7,8 @@ Electricity generation and composition in United States
 - Zhao Zhang
 
 ## Problem
-Visualizing power generation in the past 10 years throughout each state in the US and electricity source composition in each year and state. 
+Visualizing power generation in the past 10 years throughout each state in the US and electricity source composition in each year and state.
+Analyzing the correlation among electricity generation, population, and pollution.
 
 ## Summary
 Electricity is indispensable in the modern world and electricity is generated from many energy sources. In the project, we visualized overall power generation and composition in United States, studied the compositions and compare to other countries and correlated power generation with pollution and population.
@@ -15,7 +16,7 @@ Electricity is indispensable in the modern world and electricity is generated fr
 ## Methodology
 - Clean the dataset: we discarded facilities(mostly storages) that generate negative electricity. 
 - Extract  useful information: we extracted only useful information from the data set for different graphs.
-- Plot and Analyze: We analyzed the data and graphs from the following four parts: total generation, composition ,distribution and correlation.
+- Plot and Analyze: we analyzed the data and graphs from the following four parts: total generation, composition ,distribution and correlation.
 
 ## Dataset
 *Primary:*
@@ -30,11 +31,8 @@ Electricity is indispensable in the modern world and electricity is generated fr
 Root
 |
 +----dataset
-|       |   create_processed_data.py
-|       |   word_freq.py
-|       |   SQLite.py
-|       |   common_words.txt
-|       |   Industry_words.txt
+|       |   annual_generation_state.xls
+|       |   percent_coal.csv
 |
 |    Plot_US_generation.py
 |    Plot_animation.py
