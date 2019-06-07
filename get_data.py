@@ -12,8 +12,8 @@ import lxml.html as lh
 import os
 
 us_state_abbrev = abv.get_abbrev()
-power = pd.read_excel(os.path.join('data.xls')
-pollution = pd.read_csv(os.path.join(pollution.csv')
+power = pd.read_excel(os.path.join('dataset','annual_generation_state.xls'))
+pollution = pd.read_csv('https://data.cdc.gov/api/views/cjae-szjv/rows.csv')
 url='https://www.infoplease.com/us/population/us-population-state-1790-2015'
 
 assert isinstance(us_state_abbrev,dict)
