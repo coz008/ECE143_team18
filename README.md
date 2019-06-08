@@ -57,6 +57,7 @@ Root
 5. holoviews
 6. requests
 7. lxml.html
+8. ffmpeg
 
 ### Run the code
 1. Run the ```get_data.py``` and ```get_abbrev.py``` to extract the data from the dataset.
